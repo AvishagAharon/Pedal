@@ -1,0 +1,126 @@
+#addMore,
+#end {
+    display: none;
+}
+
+.nav {
+    background-color: white !important;
+    /* position: fixed; */
+}
+
+.css-hip9hq-MuiPaper-root-MuiAppBar-root {
+    position: fixed !important;
+    padding: 5px !important;
+}
+
+.css-1e4e1qc-MuiButtonBase-root-MuiButton-root:hover {
+    border-radius: 0% !important;
+    border-bottom: 2px solid rgb(43, 125, 43) !important;
+    background-color: white !important;
+}
+
+.private-area {
+    background-color: #602424 !important;
+    padding: 6px !important;
+    border-radius: 50px !important;
+    color: white !important;
+    width: 104px !important;
+}
+
+.private-area2 {
+    background-color: white;
+    border: solid 2px #602424 !important;
+    padding: 6px !important;
+    border-radius: 50px !important;
+    color: #602424 !important;
+    width: 104px !important;
+}
+
+.divBox {
+    width: 100%;
+    flex: 0;
+    display: flex;
+    flex-wrap: wrap;
+    height: 70px;
+    background-color: #854545;
+    /* background-color: #612021; */
+    color: white;
+    direction: rtl;
+    text-align: right;
+    font-size: smaller;
+    line-height: 3.5ch;
+}
+
+#standard-basic {
+    text-align: right;
+    label: right !important;
+}
+
+/* 
+.css-1x51dt5-MuiInputBase-input-MuiInput-input {
+    text-align: right !important;
+} */
+
+#alert {
+    /* visibility: hidden; */
+    visibility: hidden;
+    /* background-color: rgb(255 199 199); */
+    width: 28vw;
+    margin-right: 21%;
+    /* padding: 10px; */
+    font-size: small
+}
+
+#formLoginRC {
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;
+    direction: rtl;
+}
+
+#formLoginRBike {
+    /* width: 50%; */
+    text-align: center;
+    /* margin-left: 50%; */
+    /* background-color:white; */
+    border-radius: 5px;
+}
+
+#smallP {
+    font-size: small;
+    text-align: center;
+}
+
+body {
+    /* text-align: center; */
+}
+
+
+#addRB {
+    text-align: center;
+    margin-left: 0 !important;
+    width: 223px !important;
+    background-color: rgb(27, 139, 77);
+}
+
+
+.css-11b3ww9-MuiPaper-root-MuiAppBar-root {
+    box-shadow: none !important;
+    border-bottom: 1px solid black;
+}
+
+#tyQuestion {
+    font-size: "20px" !important;
+    color: "#4c809e" !important;
+    font-weight: "bold" !important;
+}
+
+.swal2-show {
+    margin-top: 14% !important;
+    height: 61% !important;
+    /* direction: rtl !important; */
+}
+
+div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
+    background-color: #5a3a3a !important;
+}

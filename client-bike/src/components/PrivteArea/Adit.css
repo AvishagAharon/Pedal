@@ -1,0 +1,103 @@
+ 
+.ulOfPrivate {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border-bottom: 1px solid rgb(36, 36, 52) ;
+  margin-top: 2%;
+}
+
+.liOfPrivate {
+  /* float: right ; */
+  margin-left: 10%;
+  font-size: smaller;
+}
+
+.liOfPrivate a {
+  color: rgb(19, 19, 48);
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+
+.liOfPrivate :hover {
+  border-radius: 2% ;
+  background-color: rgb(236, 235, 242) ;
+}
+
+#out {
+  margin-top: 10%;
+  text-align: center;
+  background-color: white;
+  color: rgb(9, 4, 4);
+  padding: 2%;
+}
+
+
+
+
+#ll {
+  margin-left: 60%;
+
+}
+
+
+#addR {
+  text-align: right;
+  margin-left: 0 !important;
+  width: 300px !important;
+  background-color: rgb(27, 139, 77);
+  border-radius: 50px;
+  font-size: 15px;
+}
+
+#div-pic {
+  margin-left: 40%;
+}
+
+.css-1x51dt5-MuiInputBase-input-MuiInput-input {
+  width: 350px !important;
+}
+
+
+
+#h1 {
+  font-size: larger;
+}
+
+
+
+ #formLoginR {
+  text-align: right;
+  margin-right: 40%;
+  padding: -5%;
+  border: none !important;
+}
+#select {
+  width: 43%;
+  float: right !important;
+  border: none;
+  border-bottom: 1px solid black !important;
+  padding: 10px;
+}
+
+label {
+  /* margin-left: 20%; */
+  font-size: smaller;
+  color: gray;
+}
+
+/* .showStetion {
+  visibility: hidden;
+  display: none;
+} */
+
+#outlined-multiline-static{
+  width:320px !important;
+}
+
+
+.css-sghohy-MuiButtonBase-root-MuiButton-root {
+  /* background-color:#905e03 !important ; */
+}

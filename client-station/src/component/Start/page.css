@@ -1,0 +1,176 @@
+#select {
+    padding: 10px;
+    font-size: larger;
+}
+
+#con {
+    text-align: right;
+    margin-left: 0 !important;
+    width: 300px !important;
+    background-color: rgb(179, 123, 12);
+    color: white;
+    font-size: 25px;
+    border-radius: 20px;
+
+}
+
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+    height: 46.9vw;
+    margin-bottom: 0;
+}
+
+.flex-containerRE {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+    height: 44.4vw;
+    margin-bottom: 0;
+    background-color: #525252;
+}
+
+.flex-item-left {
+    /* border: black 2px solid; */
+    background-color: #525252;
+    color: white;
+    /* padding: 10px; */
+
+}
+
+.flex-item-right {
+    background-color: white;
+    border: black 2px solid;
+    padding: 10px;
+    text-align: center;
+
+    font-size: large;
+}
+
+/* Responsive layout - makes a one column-layout instead of two-column layout */
+@media (max-width: 800px) {
+    .flex-container,.flex-containerRE {
+        flex-direction: column;
+    }
+
+    #ftime {
+        margin-left: 34%;
+    }
+}
+
+
+
+#pI {
+    color: white;
+    font-size: 17px;
+}
+
+#start {
+    margin-left: 0;
+    width: 400px !important;
+    background-color: none;
+    border: solid 4px white;
+    color: white;
+    font-size: 25px;
+    /* border-radius: 20px; */
+    /* margin-right: 10%; */
+}
+
+.button:hover {
+    border: solid 4px #525252;
+    background-color: white;
+    color: #525252;
+}
+
+/* button */
+
+.button {
+    width: 400px;
+    background-color: #525252;
+    border: solid 4px white;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    overflow: hidden; /* Added to hide the second arrow */
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button span {
+    position: relative;
+  }
+  
+
+  .button .arrow::after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover .arrow::after {
+    opacity: 1;
+    right: 5px;
+  }
+
+
+
+#myDiv {
+    width: 200px;
+    height: 200px;
+
+    background-color: lightblue;
+    position: absolute;
+    top: 50%;
+
+    left: 50%;
+
+    transform: translate(-50%, -50%) scale(0);
+    transition: transform 0.5s ease-in-out;
+}
+
+#gg {
+    /* text-shadow: 0.5px 0.5px white; */
+    font-weight: 700;
+}
+
+#icon {
+    font-size: 50px;
+    fill: black !important;
+    background-color: white;
+}
+
+#icon:hover {
+    font-size: 60px;
+}
+
+.helpper {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 75%;
+    margin-top: 3%;
+    background-color: #31373a;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    height: 35px;
+    width: 30%;
+    padding: 3%;
+}
+
+#helpper:hover {
+    /* font-size: 30px;
+    border-radius: 40px;
+    height: 40px;
+    width: 40px;
+    background-color: red; */
+}

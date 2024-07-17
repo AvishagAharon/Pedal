@@ -1,0 +1,114 @@
+#cardAshray {
+    background-color: grey;
+}
+
+
+
+.css-ebpxa3-MuiPaper-root-MuiCard-root {
+    width: 50%;
+    text-align: right;
+    margin-left: 20vw;
+}
+
+#img {
+    width: 30px;
+}
+
+.css-ag7rrr-MuiTypography-root {
+    background-color: rgb(232, 226, 226);
+    /* border-radius: 5%; */
+    padding: 8px;
+    border: solid rgb(159, 147, 147) 1px;
+}
+
+
+/* payment */
+/* date */
+.css-o9k5xi-MuiInputBase-root-MuiOutlinedInput-root {
+    width: 40vw !important;
+}
+
+.css-sghohy-MuiButtonBase-root-MuiButton-root {
+    margin-left: 17vw !important;
+}
+
+#order-button {
+    margin-left: 0 !important;
+}
+
+#div-pic {
+
+    background-color: white;
+    width: 20vw;
+    margin-left: 40vw;
+}
+
+
+
+
+#pid-button {
+    font-size: large !important;
+    width: 100% !important;
+    margin-left: 0 !important;
+
+
+}
+
+
+p {
+    /* color: red; */
+}
+
+#p2 {
+    color: black;
+    font-size: xx-large;
+    margin-left: 14px;
+    margin-right: 14px;
+}
+
+
+.css-iajp3t-MuiButtonGroup-root .MuiButtonGroup-grouped:not(:first-of-type) {
+    background-color: rgb(226, 221, 221) !important;
+}
+
+.css-iajp3t-MuiButtonGroup-root .MuiButtonGroup-grouped:not(:last-of-type) {
+    background-color: rgb(226, 221, 221) !important;
+}
+
+#selected {
+    /* padding: 20px; */
+    /* width: 100%; */
+    /* font-size: large; */
+}
+
+.button-pic {
+    /* font-size: "15px" !important;
+    font-weight: bold !important;
+    color:white !important;*/
+    width: 150px !important;
+    /* background-color: #1976d2 !important;  */
+    border: solid  #1976d2 1px !important ;
+}
+
+#div-details {
+    /* margin-top: 1vw; */
+    background-color: rgb(232, 226, 226) ;
+    padding: 8px;
+    width: 38.5vw;
+    border: solid rgb(159, 147, 147) 1px;
+    text-align: right;
+    color: black;
+    margin-right: 1vw;
+    padding: 10px;
+    font-size: large;
+    /* font-weight: lighter; */
+    /* margin-left: 2vw; */
+}
+
+.formAdd {
+    background-color: white;
+    width: 42vw;
+    direction: rtl;
+    text-align: right;
+    margin-left: 35vw;
+}

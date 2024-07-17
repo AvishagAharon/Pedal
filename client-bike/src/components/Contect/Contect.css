@@ -1,0 +1,137 @@
+#flex{
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 35vw;
+}
+
+#formLoginRCO{
+    text-align: center;
+}
+
+
+#outlined-multiline-staticC{
+    width:26vw !important;
+    margin-left: 1vw;
+}
+
+#standard-basicC{
+    width:6.3vw !important;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.text{
+    margin-left: 20px;
+    text-align: right;
+    font-size: large;
+}
+
+.labelC{
+
+    text-align: right;
+}
+#addRC{
+    text-align: center;
+    margin-left: 0 !important;
+    width: 25vw;
+    padding: 9px;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.87) ;
+    /* background-color: rgb(27, 139, 77); */
+}
+#app{
+    font-size: xx-large;
+    font-weight: bold;
+    color:rgb(16, 25, 49);
+
+}
+
+#alertC{
+    
+    visibility: hidden;
+    width: 30vw;
+    text-align: right;
+    margin-left: 35vw;
+    font-weight: bolder;
+}
+
+#alertCV{
+    visibility: hidden;
+    width: 16vw;
+    text-align: right;
+    margin-left: 6.5vw;
+    font-weight: bolder;
+}
+
+/* maps */
+
+#selectC{
+    width: 27.5%;
+    /* float: right !important; */
+    border: none;
+    border-bottom: 1px solid black !important;
+    padding: 10px;
+    font-size: medium;
+}
+#cardStation:hover{
+    box-shadow: 0 4px 8px 0 rgba(96, 137, 226, 0.19), 0 2px 20px 0 rgba(96, 137, 226, 0.19);
+
+}
+
+#cardStation{
+    /* background-color: rgb(237, 236, 236); */
+}
+#selectS{
+    width: 50%;
+    /* float: right !important; */
+    border: solid 2px;
+    border-radius: 30px;
+
+    /* border-bottom: 1px solid black !important; */
+    padding: 10px;
+    font-size: medium;
+}
+#selectAdd{
+    width: 55%;
+
+    padding: 10px;
+    font-size: medium;
+}
+#search{
+    padding: 10px;
+    border-radius: 30px;
+    border-color: #602424;
+    width: 50%;
+}
+#searchAdd{
+    padding: 13px;
+    /* border-radius: 30px; */
+    /* border-color: #602424; */
+    width: 55%;
+}
+/* קוד CSS כללי */
+.card {
+    width: 45%; /* רוחב הקלט במצב רגיל */
+  }
+  
+
+  #searchCard{
+    text-align: center;
+    direction: rtl;
+    /* width: 45%; */
+  }
+  /* קוד CSS למצב מסך קטן */
+  @media screen and (max-width: 768px) {
+    #searchCard {
+      width: 100%; /* שינוי רוחב הקלט ל-100% במסך קטן */
+    }
+  }
+
+  .css-1rwt2y5-MuiButtonBase-root-MuiButton-root {
+    color: #602424 !important;
+    border: 1px solid black !important;
+  }

@@ -1,0 +1,27 @@
+body{
+  background-color: #f1f1f1 !important;
+}
+
+
+.css-ke5b6m-MuiButtonBase-root-MuiButton-root{
+  background-color:#525252  !important;
+  color:white  !important;
+  border: 4px solid white !important;
+  padding: 3% !important;
+  width: 53% !important;
+  font-size: 30px !important;
+  /* border-radius: 10% !important; */
+  margin-left: 7% !important;
+  margin-top: 2% !important;
+}
+
+.css-ke5b6m-MuiButtonBase-root-MuiButton-root:hover{
+  background-color: rgb(188, 197, 190) !important;
+  color:#525252 !important;
+}
+
+h1{
+  font-size: 500%;
+  color: orange;
+  text-align: center;
+}
